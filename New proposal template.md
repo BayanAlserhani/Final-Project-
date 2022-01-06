@@ -27,15 +27,15 @@ A crowdFunding smart contract where a project gets funded by raising amounts of 
 
 3. A struct withdrawal that requests the raised amount and draws it. It contains a description of the request, an address of the recipient as well as the value of the withdrawal and the approval count (Abduullah).
 
-5. A constructor which has the minimum amount of the contribution and the address of the owner as follows: Constructor(uint minimum, address creator) (Thuraya).
+4. A constructor which has the minimum amount of the contribution and the address of the owner as follows: Constructor(uint minimum, address creator) (Thuraya).
 
-6. A contribute function which checks if the minimum contribution has been met (Bayan).
+5. A contribute function which checks if the minimum contribution has been met (Bayan).
 
-7. A create withdrawal function which allows users to create requests (Aedah).
+6. A create withdrawal function which allows users to create requests (Aedah).
 
-8. An approveal function that will grab the actual withdrawal request. (Abduullah).
+7. An approveal function that will grab the actual withdrawal request. (Abduullah).
 
-9. A finalize function that transfers the funds and draws it. (Ayat).
+8. A finalizing function that transfers the funds and draws it. (Ayat).
 
 ## Resources from outside of class:
 https://journals.indexcopernicus.com/api/file/viewByFileId/594400.pdf
