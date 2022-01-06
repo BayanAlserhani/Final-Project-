@@ -32,6 +32,7 @@ contract CrowdFunding {
     modifier onlyOwner() {
         require(msg.sender == owner);
         
+        
          _;
 
         }
