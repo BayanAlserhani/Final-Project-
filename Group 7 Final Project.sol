@@ -1,6 +1,6 @@
 pragma solidity >=0.4.25 <0.8.0;
 
-contract CrowdFundingCampaign {
+contract CrowdFundingCampaignFactory {
 
     address[] public deployedCampaigns; // an address array of the deployed campaign.
 
